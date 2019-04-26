@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Avenir.ttc">
-            <string>Avenir-Black</string>
-            <string>Avenir-Book</string>
-            <string>Avenir-BookOblique</string>
-            <string>Avenir-Heavy</string>
-            <string>Avenir-Light</string>
-            <string>Avenir-LightOblique</string>
-            <string>Avenir-Medium</string>
-            <string>Avenir-MediumOblique</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--About-->
         <scene sceneID="Tgd-yI-hDy">
@@ -43,14 +28,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1354592945_Concordia" translatesAutoresizingMaskIntoConstraints="NO" id="dx9-xD-tG6">
-                                                <rect key="frame" x="60.666666666666657" y="0.0" width="199.99999999999997" height="167"/>
+                                                <rect key="frame" x="60" y="0.0" width="200" height="166.66666666666666"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="GdK-as-dyy"/>
                                                     <constraint firstAttribute="width" secondItem="dx9-xD-tG6" secondAttribute="height" multiplier="6:5" id="Vd9-m2-wlq"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISSMUN 1.0.2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODP-fQ-dzj">
-                                                <rect key="frame" x="98.666666666666686" y="152" width="124" height="30"/>
+                                                <rect key="frame" x="98" y="151.66666666666666" width="124" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="WMW-aw-9dX"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="124" id="tDq-QI-MDY"/>
@@ -60,7 +45,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stanley Liu, Edward Huang, Tanya Lai, and Katrina Tsang" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNT-PI-vQl">
-                                                <rect key="frame" x="16" y="367" width="288" height="20"/>
+                                                <rect key="frame" x="16" y="366.66666666666669" width="288" height="20"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="MQi-CK-Esq"/>
                                                 </constraints>
@@ -69,7 +54,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Noq-yq-bT6">
-                                                <rect key="frame" x="16" y="192" width="288" height="175"/>
+                                                <rect key="frame" x="16" y="191.66666666666663" width="288" height="175"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="175" id="aSo-mb-LfB"/>
                                                 </constraints>
@@ -812,13 +797,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <rect key="frame" x="0.0" y="0.0" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Concordia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdV-5e-88B">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="74.666666666666671" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="74.666666666666671" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISS Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VlT-wz-xZu">
-                                                                                <rect key="frame" x="0.0" y="23" width="67.333333333333329" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666629" width="67.333333333333329" height="22.333333333333329"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -851,13 +836,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <rect key="frame" x="0.0" y="50" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jim Richmond" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0g-Mm-eEJ">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="101.66666666666667" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="101.66666666666667" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teacher Supervisor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07x-QY-YB5">
-                                                                                <rect key="frame" x="0.0" y="23" width="109.33333333333333" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666629" width="109.33333333333333" height="22.333333333333329"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -890,13 +875,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <rect key="frame" x="0.0" y="100" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LeeAnne Lavender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INn-NL-uN8">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="135.66666666666666" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="135.66666666666666" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teacher Supervisor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFI-JD-EEZ">
-                                                                                <rect key="frame" x="0.0" y="23" width="109.33333333333333" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666629" width="109.33333333333333" height="22.333333333333329"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1008,13 +993,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <rect key="frame" x="0.0" y="53.333333333333371" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taylor Adams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpb-he-RzY">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="97.666666666666671" height="23.666666666666668"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="97.666666666666671" height="23.333333333333332"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deputy Secretary General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYZ-hK-8fF">
-                                                                                <rect key="frame" x="0.0" y="22.666666666666629" width="148.66666666666666" height="22.333333333333329"/>
+                                                                                <rect key="frame" x="0.0" y="22.333333333333258" width="148.66666666666666" height="22.666666666666671"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1203,13 +1188,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <rect key="frame" x="0.0" y="319.33333333333326" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Corey Zhou" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1E-3i-Ms5">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="84.666666666666671" height="23.666666666666668"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="84.666666666666671" height="23.333333333333332"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Admin Co-Head" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6E-eO-z6Q">
-                                                                                <rect key="frame" x="0.0" y="22.666666666666742" width="94.333333333333329" height="22.333333333333329"/>
+                                                                                <rect key="frame" x="0.0" y="22.333333333333485" width="94.333333333333329" height="22.666666666666671"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1281,13 +1266,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <rect key="frame" x="0.0" y="425.66666666666674" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manfred Au" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rv0-al-SUL">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="86" height="23.333333333333332"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="86" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deputy Admin Leaders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Iy-kb-OkE">
-                                                                                <rect key="frame" x="0.0" y="22.333333333333258" width="133" height="22.666666666666671"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666515" width="133" height="22.333333333333329"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1359,13 +1344,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <rect key="frame" x="0.0" y="532" width="288" height="45.333333333333371"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hannah Kim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkE-K6-SBw">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="23"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deputy Admin Leaders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oyw-3f-C4a">
-                                                                                <rect key="frame" x="0.0" y="22" width="133" height="23.333333333333329"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666742" width="133" height="22.666666666666671"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1398,13 +1383,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <rect key="frame" x="0.0" y="585.33333333333326" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Katrina Tsang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMl-hb-ZPl">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="97.666666666666671" height="23.666666666666668"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="97.666666666666671" height="23.333333333333332"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Director of Technology" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7g4-VA-crO">
-                                                                                <rect key="frame" x="0.0" y="22.666666666666742" width="131.66666666666666" height="22.333333333333329"/>
+                                                                                <rect key="frame" x="0.0" y="22.333333333333485" width="131.66666666666666" height="22.666666666666671"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1437,13 +1422,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <rect key="frame" x="0.0" y="638.33333333333326" width="288" height="45.333333333333371"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tanya Lai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bb8-v2-rz6">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="66" height="24.333333333333332"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="66" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Head of Service and Outreach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gti-Ck-SAe">
-                                                                                <rect key="frame" x="0.0" y="23.333333333333485" width="174" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666742" width="174" height="22.666666666666671"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1515,13 +1500,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <rect key="frame" x="0.0" y="744.66666666666674" width="288" height="45.333333333333371"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chloe Lim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6A-93-Dkf">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="72.666666666666671" height="24.333333333333332"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="72.666666666666671" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transportation Coordinator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nis-Up-hb1">
-                                                                                <rect key="frame" x="0.0" y="23.333333333333258" width="157.33333333333334" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666515" width="157.33333333333334" height="22.666666666666671"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1632,13 +1617,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <rect key="frame" x="0.0" y="904.33333333333326" width="288" height="45.333333333333371"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garrett Lee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUQ-dk-XAZ">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="83.666666666666671" height="24.333333333333332"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="83.666666666666671" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="President of GA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uj0-8q-xYf">
-                                                                                <rect key="frame" x="0.0" y="23.333333333333485" width="91.666666666666671" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666742" width="91.666666666666671" height="22.666666666666671"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -2001,7 +1986,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                 <rect key="frame" x="0.0" y="86" width="375" height="450"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ConcordiaMap" translatesAutoresizingMaskIntoConstraints="NO" id="MaU-Sy-tzj">
-                                        <rect key="frame" x="0.0" y="0.66666666666665719" width="375" height="412.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="412.66666666666669"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="MaU-Sy-tzj" secondAttribute="height" multiplier="1:1.1" id="Ov0-b6-e1U"/>
                                         </constraints>
@@ -2238,13 +2223,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U26-bP-A8H">
-                                <rect key="frame" x="24" y="57.999999999999993" width="327" height="23.666666666666664"/>
+                                <rect key="frame" x="24" y="58.000000000000007" width="327" height="23.333333333333336"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="8fP-Qf-YfV">
-                                <rect key="frame" x="8" y="129.66666666666666" width="359" height="269.33333333333337"/>
+                                <rect key="frame" x="8" y="129.33333333333334" width="359" height="269.33333333333326"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="28n-Gm-Ww5">
                                         <rect key="frame" x="0.0" y="0.0" width="359" height="269.33333333333331"/>
@@ -2304,7 +2289,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KLa-PI-J6F" id="uJA-dj-HNO">
-                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="337" height="43.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <color key="backgroundColor" red="0.97254901959999995" green="0.96078431369999995" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </tableViewCellContentView>
@@ -2728,7 +2713,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上海" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5z-AU-Vey">
-                                                <rect key="frame" x="136" y="84" width="48" height="33"/>
+                                                <rect key="frame" x="136" y="83.666666666666657" width="48" height="33"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -2741,7 +2726,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXo-1D-96a">
-                                                <rect key="frame" x="0.0" y="367" width="320" height="52"/>
+                                                <rect key="frame" x="0.0" y="366.33333333333331" width="320" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="U2n-ZF-WKw"/>
@@ -2768,7 +2753,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AuC-FT-Wzz">
-                                                <rect key="frame" x="0.0" y="421.66666666666669" width="320" height="52"/>
+                                                <rect key="frame" x="0.0" y="421.33333333333331" width="320" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="xUA-sH-NS4"/>
@@ -2812,9 +2797,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="fDv-c0-Fm9" kind="show" id="o3k-gM-XF0">
-                                                        <nil key="action"/>
-                                                    </segue>
+                                                    <segue destination="fDv-c0-Fm9" kind="show" id="o3k-gM-XF0"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXj-9C-8mU">
@@ -4145,7 +4128,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金桥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwB-Tn-K8T">
-                                                <rect key="frame" x="183" y="84" width="48" height="33"/>
+                                                <rect key="frame" x="183" y="83.666666666666657" width="48" height="33"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -4162,7 +4145,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKc-0n-wDG">
-                                                <rect key="frame" x="0.0" y="332" width="414" height="52"/>
+                                                <rect key="frame" x="0.0" y="331.33333333333331" width="414" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="RQe-Rn-aa3"/>
@@ -4189,7 +4172,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmX-QV-mj3">
-                                                <rect key="frame" x="0.0" y="386" width="414" height="52"/>
+                                                <rect key="frame" x="0.0" y="386.33333333333331" width="414" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="Tbp-Q9-jmE"/>
@@ -4648,54 +4631,54 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="Loz-ae-kJq" userLabel="Star Filled">
-                                                                <rect key="frame" x="91.666666666666671" y="31" width="15" height="15"/>
+                                                                <rect key="frame" x="91.666666666666671" y="31.333333333333343" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="15" id="BWs-0M-dv7"/>
                                                                     <constraint firstAttribute="width" secondItem="Loz-ae-kJq" secondAttribute="height" multiplier="1:1" id="abX-nA-hYP"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="Aeu-ze-HbQ" userLabel="Star Filled">
-                                                                <rect key="frame" x="108.66666666666667" y="31" width="15" height="15"/>
+                                                                <rect key="frame" x="108.66666666666667" y="31.333333333333343" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="Aeu-ze-HbQ" secondAttribute="height" multiplier="1:1" id="JCt-kA-bWh"/>
                                                                     <constraint firstAttribute="width" constant="15" id="SjS-Ep-nVJ"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="Gwa-nN-rHz" userLabel="Star Filled">
-                                                                <rect key="frame" x="125.66666666666666" y="31" width="15" height="15"/>
+                                                                <rect key="frame" x="125.66666666666666" y="31.333333333333343" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="Gwa-nN-rHz" secondAttribute="height" multiplier="1:1" id="F8h-9H-D5f"/>
                                                                     <constraint firstAttribute="width" constant="15" id="d4H-Ll-Rc2"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="I0A-by-Rnk" userLabel="Star Filled">
-                                                                <rect key="frame" x="142.66666666666666" y="31" width="15" height="15"/>
+                                                                <rect key="frame" x="142.66666666666666" y="31.333333333333343" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="I0A-by-Rnk" secondAttribute="height" multiplier="1:1" id="6UR-eK-GDd"/>
                                                                     <constraint firstAttribute="width" constant="15" id="YBw-t3-klm"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Empty" translatesAutoresizingMaskIntoConstraints="NO" id="Ra7-E3-r1H" userLabel="Star Empty">
-                                                                <rect key="frame" x="159.66666666666666" y="31" width="15" height="15"/>
+                                                                <rect key="frame" x="159.66666666666666" y="31.333333333333343" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="Ra7-E3-r1H" secondAttribute="height" multiplier="1:1" id="Bc8-9G-EuL"/>
                                                                     <constraint firstAttribute="width" constant="15" id="u7h-Im-bdm"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeT-Lo-d1W">
-                                                                <rect key="frame" x="178.66666666666666" y="32" width="121.33333333333334" height="13.666666666666664"/>
+                                                                <rect key="frame" x="178.66666666666666" y="32.333333333333343" width="121.33333333333334" height="13.666666666666664"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taiwanese, Fast Food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFa-B5-OhK">
-                                                                <rect key="frame" x="91.666666666666671" y="50" width="204.33333333333331" height="19.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="50.333333333333343" width="204.33333333333331" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Carrefour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jg-X4-2XF">
-                                                                <rect key="frame" x="91.666666666666671" y="69.333333333333343" width="204.33333333333331" height="15.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="69.666666666666686" width="204.33333333333331" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -4815,66 +4798,66 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                         <rect key="frame" x="0.0" y="293.33333333333331" width="304" height="91.666666666666686"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nypizza" translatesAutoresizingMaskIntoConstraints="NO" id="yNo-c0-RTv">
-                                                                <rect key="frame" x="8" y="8" width="76.333333333333329" height="75.666666666666671"/>
+                                                                <rect key="frame" x="8" y="8" width="75.666666666666671" height="75.666666666666671"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="yNo-c0-RTv" secondAttribute="height" multiplier="1:1" id="XE7-rv-gXj"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New York Style Pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQo-gF-cnj">
-                                                                <rect key="frame" x="92.333333333333329" y="7.9999999999999982" width="180.66666666666669" height="19.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="7.9999999999999982" width="181.33333333333331" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="47X-LR-KmS" userLabel="Star Filled">
-                                                                <rect key="frame" x="92.333333333333329" y="31.333333333333371" width="15" height="15"/>
+                                                                <rect key="frame" x="91.666666666666671" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="15" id="Gvn-83-4A3"/>
                                                                     <constraint firstAttribute="width" secondItem="47X-LR-KmS" secondAttribute="height" multiplier="1:1" id="e4b-43-Xwf"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="3gu-xj-E3W" userLabel="Star Filled">
-                                                                <rect key="frame" x="109.33333333333333" y="31.333333333333371" width="15" height="15"/>
+                                                                <rect key="frame" x="108.66666666666667" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="15" id="i2f-J8-5cd"/>
                                                                     <constraint firstAttribute="width" secondItem="3gu-xj-E3W" secondAttribute="height" multiplier="1:1" id="mUR-fF-agn"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="vms-b1-1TH" userLabel="Star Filled">
-                                                                <rect key="frame" x="126.33333333333334" y="31.333333333333371" width="15" height="15"/>
+                                                                <rect key="frame" x="125.66666666666666" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="vms-b1-1TH" secondAttribute="height" multiplier="1:1" id="AUv-v6-Plc"/>
                                                                     <constraint firstAttribute="width" constant="15" id="PoT-hM-3iK"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="CSo-lz-kvb" userLabel="Star Filled">
-                                                                <rect key="frame" x="143.33333333333334" y="31.333333333333371" width="15" height="15"/>
+                                                                <rect key="frame" x="142.66666666666666" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="15" id="lUn-9L-zou"/>
                                                                     <constraint firstAttribute="width" secondItem="CSo-lz-kvb" secondAttribute="height" multiplier="1:1" id="zx1-a2-nkV"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Empty" translatesAutoresizingMaskIntoConstraints="NO" id="J0E-Ym-3oB" userLabel="Star Half Filled">
-                                                                <rect key="frame" x="160.33333333333334" y="31.333333333333371" width="15" height="15"/>
+                                                                <rect key="frame" x="159.66666666666666" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="15" id="fDB-Vp-hKH"/>
                                                                     <constraint firstAttribute="width" secondItem="J0E-Ym-3oB" secondAttribute="height" multiplier="1:1" id="nKW-Cj-ddV"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5f-IP-qki">
-                                                                <rect key="frame" x="179.33333333333334" y="32.333333333333371" width="120.66666666666666" height="13.666666666666664"/>
+                                                                <rect key="frame" x="178.66666666666666" y="32.333333333333371" width="121.33333333333334" height="13.666666666666664"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Italian, Pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHj-Fz-O2c">
-                                                                <rect key="frame" x="92.333333333333329" y="50.333333333333371" width="203.66666666666669" height="19.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="50.333333333333371" width="204.33333333333331" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Jinqiao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0RX-qD-py5">
-                                                                <rect key="frame" x="92.333333333333329" y="69.666666666666686" width="203.66666666666669" height="15.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="69.666666666666686" width="204.33333333333331" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -4945,13 +4928,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Japanese, Sushi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="If2-nV-8hX">
-                                                                <rect key="frame" x="91.666666666666671" y="49.666666666666629" width="204.33333333333331" height="19.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="49" width="204.33333333333331" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$ - Jinqiao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6X-qt-vdP">
-                                                                <rect key="frame" x="91.666666666666671" y="69" width="204.33333333333331" height="15.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="68.333333333333371" width="204.33333333333331" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -5047,7 +5030,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$ - Carrefour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7z-sr-sqF">
-                                                                <rect key="frame" x="91.666666666666671" y="69.333333333333371" width="204.33333333333331" height="15.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="69.666666666666742" width="204.33333333333331" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -5165,7 +5148,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$-$$$ - Jinqiao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDk-qg-cjT">
-                                                                <rect key="frame" x="91.666666666666671" y="69" width="204.33333333333331" height="15.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="69.666666666666742" width="204.33333333333331" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -5218,66 +5201,66 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                         <rect key="frame" x="0.0" y="684.33333333333337" width="304" height="91.666666666666629"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starbuck" translatesAutoresizingMaskIntoConstraints="NO" id="fVf-Nc-IeM">
-                                                                <rect key="frame" x="8" y="8" width="76.333333333333329" height="75.666666666666671"/>
+                                                                <rect key="frame" x="8" y="8" width="75.666666666666671" height="75.666666666666671"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="fVf-Nc-IeM" secondAttribute="height" multiplier="1:1" id="PLK-DX-7E4"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Starbucks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7r-B3-vfF">
-                                                                <rect key="frame" x="92.333333333333329" y="7.9999999999999982" width="180.66666666666669" height="19.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="7.9999999999999982" width="181.33333333333331" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="VGg-Kv-rui" userLabel="Star Filled">
-                                                                <rect key="frame" x="92.333333333333329" y="31.333333333333258" width="15" height="15"/>
+                                                                <rect key="frame" x="91.666666666666671" y="31.333333333333258" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="VGg-Kv-rui" secondAttribute="height" multiplier="1:1" id="4rg-gp-rxa"/>
                                                                     <constraint firstAttribute="width" constant="15" id="Kbg-2P-dv7"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="U9a-Be-vsT" userLabel="Star Filled">
-                                                                <rect key="frame" x="109.33333333333333" y="31.333333333333258" width="15" height="15"/>
+                                                                <rect key="frame" x="108.66666666666667" y="31.333333333333258" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="15" id="4hl-cs-1s8"/>
                                                                     <constraint firstAttribute="width" secondItem="U9a-Be-vsT" secondAttribute="height" multiplier="1:1" id="y8O-kP-8Uf"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="gb1-xi-M1N" userLabel="Star Filled">
-                                                                <rect key="frame" x="126.33333333333334" y="31.333333333333258" width="15" height="15"/>
+                                                                <rect key="frame" x="125.66666666666666" y="31.333333333333258" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="15" id="3QK-e4-mDA"/>
                                                                     <constraint firstAttribute="width" secondItem="gb1-xi-M1N" secondAttribute="height" multiplier="1:1" id="JOL-AN-K0g"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="eMx-id-Fcz" userLabel="Star Filled">
-                                                                <rect key="frame" x="143.33333333333334" y="31.333333333333258" width="15" height="15"/>
+                                                                <rect key="frame" x="142.66666666666666" y="31.333333333333258" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="eMx-id-Fcz" secondAttribute="height" multiplier="1:1" id="Lo3-d5-K04"/>
                                                                     <constraint firstAttribute="width" constant="15" id="wfh-Za-wBf"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Half Empty" translatesAutoresizingMaskIntoConstraints="NO" id="jjL-JO-TSA" userLabel="Star Half Filled">
-                                                                <rect key="frame" x="160.33333333333334" y="31.333333333333258" width="15" height="15"/>
+                                                                <rect key="frame" x="159.66666666666666" y="31.333333333333258" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="jjL-JO-TSA" secondAttribute="height" multiplier="1:1" id="6Sm-cL-4bQ"/>
                                                                     <constraint firstAttribute="width" constant="15" id="ZE2-SI-XQC"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjQ-mo-fMY">
-                                                                <rect key="frame" x="179.33333333333334" y="32.333333333333258" width="120.66666666666666" height="13.666666666666664"/>
+                                                                <rect key="frame" x="178.66666666666666" y="32.333333333333258" width="121.33333333333334" height="13.666666666666664"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cafe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yej-EA-Pgc">
-                                                                <rect key="frame" x="92.333333333333329" y="50.333333333333258" width="203.66666666666669" height="19.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="50.333333333333258" width="204.33333333333331" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$-$$$ - Jinqiao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpQ-Tg-e5q">
-                                                                <rect key="frame" x="92.333333333333329" y="69.666666666666629" width="203.66666666666669" height="15.333333333333329"/>
+                                                                <rect key="frame" x="91.666666666666671" y="69.666666666666629" width="204.33333333333331" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -5701,7 +5684,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Shanghai Tower is a 632-metre, 128-story megatall skyscraper in Lujiazui, Pudong, Shanghai." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="9Av-cw-lSJ">
-                                                                <rect key="frame" x="14" y="57.666666666666629" width="181" height="45.333333333333343"/>
+                                                                <rect key="frame" x="14" y="57.666666666666629" width="180" height="45.333333333333343"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -5924,7 +5907,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Ipy-P8-oSQ">
-                                                                <rect key="frame" x="14" y="57.666666666666629" width="181" height="45.333333333333343"/>
+                                                                <rect key="frame" x="14" y="57.666666666666629" width="180.66666666666666" height="45.333333333333343"/>
                                                                 <string key="text">The leafy boulevards of the elegant French Concession are home to cozy live-music venues and boutique wine bars, as well as indie fashion shops and European delis. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -5973,7 +5956,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yuyuan Garden is a famous classical garden located in Anren Jie, Shanghai. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhD-IK-c26">
-                                                                <rect key="frame" x="14" y="57.333333333333314" width="181" height="45.333333333333343"/>
+                                                                <rect key="frame" x="14" y="57.333333333333314" width="180.33333333333334" height="45.333333333333343"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -6117,7 +6100,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Shanghai Tower is a 632-metre, 128-story megatall skyscraper in Lujiazui, Pudong, Shanghai." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZI-z0-usq">
-                                                                <rect key="frame" x="14" y="57.666666666666629" width="181" height="45.333333333333343"/>
+                                                                <rect key="frame" x="14" y="57.666666666666629" width="180" height="45.333333333333343"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -6210,16 +6193,16 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atQ-Tr-QtZ">
-                                <rect key="frame" x="24" y="57.999999999999993" width="327" height="23.666666666666664"/>
+                                <rect key="frame" x="24" y="58.000000000000007" width="327" height="23.333333333333336"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="ZhI-Rw-vYN">
-                                <rect key="frame" x="8" y="129.66666666666666" width="359" height="269.33333333333337"/>
+                                <rect key="frame" x="8" y="129.33333333333334" width="359" height="269.33333333333326"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="82h-qa-wT3">
-                                        <rect key="frame" x="0.0" y="0.0" width="359" height="269"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="269.33333333333331"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="82h-qa-wT3" secondAttribute="height" multiplier="4:3" id="u5y-J2-RkM"/>
                                         </constraints>
@@ -6497,13 +6480,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         <rect key="frame" x="0.0" y="0.0" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Concordia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zsk-kW-Q2e">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="74.666666666666671" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="74.666666666666671" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISS Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkl-2y-Eof">
-                                                                                <rect key="frame" x="0.0" y="23" width="67.333333333333329" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666629" width="67.333333333333329" height="22.333333333333329"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -6534,13 +6517,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         <rect key="frame" x="0.0" y="50" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LeeAnne Lavender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnl-XD-aTf">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="135.66666666666666" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="135.66666666666666" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conference Supervisor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ps-KT-SzD">
-                                                                                <rect key="frame" x="0.0" y="23" width="131.33333333333334" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666629" width="131.33333333333334" height="22.333333333333329"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -6571,13 +6554,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         <rect key="frame" x="0.0" y="100" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chris Carter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OV7-Jf-fd7">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="88" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="88" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conference Supervisor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBG-UO-p1v">
-                                                                                <rect key="frame" x="0.0" y="23" width="131.33333333333334" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666629" width="131.33333333333334" height="22.333333333333329"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -6608,13 +6591,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         <rect key="frame" x="0.0" y="150" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carla Molloy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Arj-dg-SFj">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="91.333333333333329" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="91.333333333333329" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conference Supervisor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fnm-Xh-4ln">
-                                                                                <rect key="frame" x="0.0" y="23" width="131.33333333333334" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666629" width="131.33333333333334" height="22.333333333333329"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -6645,13 +6628,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         <rect key="frame" x="0.0" y="200" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Michele Turner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Deb-Ap-8rF">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="107.33333333333333" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="107.33333333333333" height="23.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conference Supervisor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqt-wX-sbK">
-                                                                                <rect key="frame" x="0.0" y="23" width="131.33333333333334" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.666666666666629" width="131.33333333333334" height="22.333333333333329"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -6756,7 +6739,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="18821205871" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="AtM-u2-eRt">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="36.333333333333336"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="35.666666666666664"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -6778,7 +6761,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         <rect key="frame" x="0.0" y="75.333333333333371" width="288" height="29.666666666666671"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Isabel Cheng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uz9-BM-C7R">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="94.666666666666671" height="15.666666666666666"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="94.666666666666671" height="16"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -6846,13 +6829,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         <rect key="frame" x="0.0" y="0.0" width="288" height="54.333333333333336"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emerson Lyon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0f-MF-vnb">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="102.33333333333333" height="28.333333333333332"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="102.33333333333333" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plastic Reduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1q-Ho-PIN">
-                                                                                <rect key="frame" x="0.0" y="27.333333333333258" width="99" height="27"/>
+                                                                                <rect key="frame" x="0.0" y="27" width="99" height="27.333333333333329"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -6920,13 +6903,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         <rect key="frame" x="0.0" y="124.66666666666674" width="288" height="54"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Julie Baik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SqN-qu-2KB">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="68.333333333333329" height="28.333333333333332"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="68.333333333333329" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Human Rights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qd-Qo-Jxz">
-                                                                                <rect key="frame" x="0.0" y="27.333333333333258" width="81" height="26.666666666666671"/>
+                                                                                <rect key="frame" x="0.0" y="27" width="81" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -6957,13 +6940,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         <rect key="frame" x="0.0" y="186.66666666666674" width="288" height="54.333333333333343"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kyuwon Kim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7t-IO-ICL">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="90.333333333333329" height="27.666666666666668"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="90.333333333333329" height="28.333333333333332"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Human Rights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r6s-1q-XEK">
-                                                                                <rect key="frame" x="0.0" y="26.666666666666515" width="81" height="27.666666666666671"/>
+                                                                                <rect key="frame" x="0.0" y="27.333333333333258" width="81" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -7068,13 +7051,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         <rect key="frame" x="0.0" y="373.66666666666674" width="288" height="54"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Megan Li" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8JZ-js-iFD">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="67" height="28.333333333333332"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="67" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recycling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OX8-aw-JIC">
-                                                                                <rect key="frame" x="0.0" y="27.333333333333258" width="55" height="26.666666666666671"/>
+                                                                                <rect key="frame" x="0.0" y="27" width="55" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -7247,10 +7230,10 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="qWW-P5-L8n">
-                                <rect key="frame" x="0.0" y="112.66666666666666" width="414" height="496.66666666666674"/>
+                                <rect key="frame" x="0.0" y="112.66666666666669" width="414" height="497.00000000000006"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ConcordiaMap" translatesAutoresizingMaskIntoConstraints="NO" id="AFu-fm-uNw">
-                                        <rect key="frame" x="0.0" y="0.66666666666665719" width="414" height="455.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="455.66666666666669"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="AFu-fm-uNw" secondAttribute="height" multiplier="1:1.1" id="Yfj-0S-e7r"/>
                                         </constraints>

@@ -18,19 +18,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var updatedVersion: Double = 0.0
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
                 
         // Setting appearances/formatting for navigation bar
         let attrs = [
-            NSForegroundColorAttributeName: UIColor.white,
-            NSFontAttributeName: UIFont(name: "Avenir-Medium", size: 20)!
+            NSAttributedString.Key.foregroundColor: UIColor.white,
+            NSAttributedString.Key.font: UIFont(name: "Avenir-Medium", size: 20)!
         ]
         UINavigationBar.appearance().titleTextAttributes = attrs
         
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         UINavigationBar.appearance().shadowImage = UIImage()
         
-        UIBarButtonItem.appearance().setTitleTextAttributes([NSFontAttributeName : UIFont(name: "Avenir", size: 16.0)!], for: UIControlState.normal)
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font : UIFont(name: "Avenir", size: 16.0)!], for: UIControl.State.normal)
         
         // Load user conference
         loadConference()
@@ -55,8 +55,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         if (appVersion != updatedVersion)
         {
-            let alert = UIAlertController(title: "New Version Available", message: "There is a newer version available for download! Please update the app by visiting the Apple Store.", preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "Update", style: UIAlertActionStyle.default, handler: { alertAction in
+            let alert = UIAlertController(title: "New Version Available", message: "There is a newer version available for download! Please update the app by visiting the Apple Store.", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "Update", style: UIAlertAction.Style.default, handler: { alertAction in
                 UIApplication.shared.open(URL(string : "https://itunes.apple.com/us/app/cissmun/id1323501359?ls=1&mt=8")!, options: [:], completionHandler: nil)
                 alert.dismiss(animated: true, completion: nil)
             }))

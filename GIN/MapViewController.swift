@@ -16,9 +16,9 @@ class MapViewController: UIViewController {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "Map") as UIViewController
-        addChildViewController(controller)
+        addChild(controller)
         view.addSubview(controller.view)
-        controller.didMove(toParentViewController: self)
+        controller.didMove(toParent: self)
     }
     
     override func didReceiveMemoryWarning() {
