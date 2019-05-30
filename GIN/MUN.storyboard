@@ -137,10 +137,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="2186"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NfK-gr-WjD">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2417"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2186"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Rd6-A9-87I">
-                                                <rect key="frame" x="16" y="16" width="288" height="2164"/>
+                                                <rect key="frame" x="16" y="16" width="288" height="1942"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wz5-q2-T1v">
                                                         <rect key="frame" x="0.0" y="0.0" width="288" height="260"/>
@@ -207,7 +207,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgv-Dz-eqN" userLabel="Friday">
-                                                        <rect key="frame" x="0.0" y="263" width="288" height="800"/>
+                                                        <rect key="frame" x="0.0" y="263" width="288" height="600"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3xq-GH-FaS">
                                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="25"/>
@@ -226,13 +226,13 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                 </constraints>
                                                             </view>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="zom-1c-aHK">
-                                                                <rect key="frame" x="0.0" y="40" width="288" height="760"/>
+                                                                <rect key="frame" x="0.0" y="40" width="288" height="560"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IWI-rR-SHb">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="89"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="64"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fm4-E3-DaB">
-                                                                                <rect key="frame" x="0.0" y="44.5" width="25.5" height="44.5"/>
+                                                                                <rect key="frame" x="0.0" y="32" width="25.5" height="32"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -244,7 +244,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00 - 11:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63Q-om-b8C">
-                                                                                <rect key="frame" x="0.0" y="-14" width="124.5" height="45.5"/>
+                                                                                <rect key="frame" x="0.0" y="-14" width="124.5" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -264,10 +264,10 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vez-pC-sqf">
-                                                                        <rect key="frame" x="0.0" y="96" width="288" height="89"/>
+                                                                        <rect key="frame" x="0.0" y="71" width="288" height="64"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lod-M5-Azo">
-                                                                                <rect key="frame" x="0.0" y="44.5" width="25.5" height="44.5"/>
+                                                                                <rect key="frame" x="0.0" y="32" width="25.5" height="32"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -279,7 +279,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:15 - 11:45 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utu-9L-cqr">
-                                                                                <rect key="frame" x="0.0" y="-14" width="124.5" height="45.5"/>
+                                                                                <rect key="frame" x="0.0" y="-14" width="124.5" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -299,10 +299,10 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YZ4-4w-hB3">
-                                                                        <rect key="frame" x="0.0" y="192" width="288" height="88.5"/>
+                                                                        <rect key="frame" x="0.0" y="142" width="288" height="63.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHq-Yc-2Vu">
-                                                                                <rect key="frame" x="0.0" y="44" width="25.5" height="44.5"/>
+                                                                                <rect key="frame" x="0.0" y="31.5" width="25.5" height="32"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -314,7 +314,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:45 AM - 12:30 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZQ-6N-fvP">
-                                                                                <rect key="frame" x="0.0" y="-16" width="153" height="45"/>
+                                                                                <rect key="frame" x="0.0" y="-16" width="153" height="32.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -334,10 +334,10 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yk1-17-ZvR">
-                                                                        <rect key="frame" x="0.0" y="287.5" width="288" height="89"/>
+                                                                        <rect key="frame" x="0.0" y="212.5" width="288" height="64"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLC-ga-zcf">
-                                                                                <rect key="frame" x="0.0" y="44.5" width="25.5" height="44.5"/>
+                                                                                <rect key="frame" x="0.0" y="32" width="25.5" height="32"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -349,7 +349,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:30 - 1:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVJ-mT-Lkn">
-                                                                                <rect key="frame" x="0.0" y="-15" width="114" height="45.5"/>
+                                                                                <rect key="frame" x="0.0" y="-15" width="114" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -369,10 +369,10 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NdX-ba-qLw">
-                                                                        <rect key="frame" x="0.0" y="383.5" width="288" height="89"/>
+                                                                        <rect key="frame" x="0.0" y="283.5" width="288" height="64"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4m-8h-R0s">
-                                                                                <rect key="frame" x="0.0" y="44.5" width="25.5" height="44.5"/>
+                                                                                <rect key="frame" x="0.0" y="32" width="25.5" height="32"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -384,7 +384,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:30 - 2:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDW-WV-hwj">
-                                                                                <rect key="frame" x="0.0" y="-6" width="114" height="45.5"/>
+                                                                                <rect key="frame" x="0.0" y="-6" width="114" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -404,10 +404,10 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EgR-EU-nAe">
-                                                                        <rect key="frame" x="0.0" y="479.5" width="288" height="89"/>
+                                                                        <rect key="frame" x="0.0" y="354.5" width="288" height="64"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRb-Zl-QSA">
-                                                                                <rect key="frame" x="0.0" y="44.5" width="25.5" height="44.5"/>
+                                                                                <rect key="frame" x="0.0" y="32" width="25.5" height="32"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -419,7 +419,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:00 - 6:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNM-iU-QMX">
-                                                                                <rect key="frame" x="0.0" y="-7" width="105" height="45.5"/>
+                                                                                <rect key="frame" x="0.0" y="-7" width="105" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -439,10 +439,10 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SzR-yS-3Yj">
-                                                                        <rect key="frame" x="0.0" y="575.5" width="288" height="88.5"/>
+                                                                        <rect key="frame" x="0.0" y="425.5" width="288" height="63.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dh-j6-x4R">
-                                                                                <rect key="frame" x="0.0" y="44" width="25.5" height="44.5"/>
+                                                                                <rect key="frame" x="0.0" y="31.5" width="25.5" height="32"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -454,7 +454,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6:00 - 7:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBT-i6-JNE">
-                                                                                <rect key="frame" x="0.0" y="-15" width="105" height="45"/>
+                                                                                <rect key="frame" x="0.0" y="-15" width="105" height="32.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -474,10 +474,10 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cfw-rg-5DQ">
-                                                                        <rect key="frame" x="0.0" y="671" width="288" height="89"/>
+                                                                        <rect key="frame" x="0.0" y="496" width="288" height="64"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rR4-vi-V6V">
-                                                                                <rect key="frame" x="0.0" y="44.5" width="25.5" height="44.5"/>
+                                                                                <rect key="frame" x="0.0" y="32" width="25.5" height="32"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -489,7 +489,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7:15 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKX-pb-MHu">
-                                                                                <rect key="frame" x="0.0" y="-14" width="60" height="45.5"/>
+                                                                                <rect key="frame" x="0.0" y="-14" width="60" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -517,14 +517,14 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                             <constraint firstItem="3xq-GH-FaS" firstAttribute="top" secondItem="dgv-Dz-eqN" secondAttribute="top" id="KmY-9g-F2B"/>
                                                             <constraint firstItem="3xq-GH-FaS" firstAttribute="leading" secondItem="dgv-Dz-eqN" secondAttribute="leading" id="VO3-gr-BVG"/>
                                                             <constraint firstItem="zom-1c-aHK" firstAttribute="top" secondItem="3xq-GH-FaS" secondAttribute="bottom" constant="15" id="kcF-Fe-zAe"/>
-                                                            <constraint firstAttribute="height" constant="800" id="oN9-B8-T8E"/>
+                                                            <constraint firstAttribute="height" constant="600" id="oN9-B8-T8E"/>
                                                             <constraint firstAttribute="trailing" secondItem="zom-1c-aHK" secondAttribute="trailing" id="rNI-Ht-PZ1"/>
                                                             <constraint firstAttribute="trailing" secondItem="3xq-GH-FaS" secondAttribute="trailing" id="vYW-3B-oE8"/>
                                                             <constraint firstAttribute="bottom" secondItem="zom-1c-aHK" secondAttribute="bottom" id="wTx-3A-Xg7"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZZ-pB-Eti" userLabel="Saturday">
-                                                        <rect key="frame" x="0.0" y="1066" width="288" height="492"/>
+                                                        <rect key="frame" x="0.0" y="866" width="288" height="400"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Clt-Jy-jFt">
                                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="25"/>
@@ -546,19 +546,19 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                 </constraints>
                                                             </view>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="K7W-fI-hlz">
-                                                                <rect key="frame" x="0.0" y="40" width="288" height="452"/>
+                                                                <rect key="frame" x="0.0" y="40" width="288" height="360"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1UW-nI-wU7">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="85"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="66.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:00 - 10:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yat-Yp-Phh">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="115.5" height="43.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="115.5" height="34"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfY-4s-NGK">
-                                                                                <rect key="frame" x="0.0" y="42.5" width="25.5" height="42.5"/>
+                                                                                <rect key="frame" x="0.0" y="33" width="25.5" height="33.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -584,16 +584,16 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wZ9-SI-0nF">
-                                                                        <rect key="frame" x="0.0" y="92" width="288" height="84.5"/>
+                                                                        <rect key="frame" x="0.0" y="73.5" width="288" height="66.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:00 AM - 1:00 PM " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xae-eX-ENi">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="139.5" height="43"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="139.5" height="34"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEh-g8-wQB">
-                                                                                <rect key="frame" x="0.0" y="42" width="0.0" height="42.5"/>
+                                                                                <rect key="frame" x="0.0" y="33" width="0.0" height="33.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -619,16 +619,16 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="USd-WM-4bU">
-                                                                        <rect key="frame" x="0.0" y="183.5" width="288" height="85"/>
+                                                                        <rect key="frame" x="0.0" y="147" width="288" height="66"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:30 AM - 2:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxh-9u-vyz">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="144" height="43.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="144" height="34"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hd-tO-tDS">
-                                                                                <rect key="frame" x="0.0" y="42.5" width="0.0" height="42.5"/>
+                                                                                <rect key="frame" x="0.0" y="33" width="0.0" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -654,16 +654,16 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lks-OR-ADe">
-                                                                        <rect key="frame" x="0.0" y="275.5" width="288" height="84.5"/>
+                                                                        <rect key="frame" x="0.0" y="220" width="288" height="66.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:00 AM - 4:30 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLO-d9-miu">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="43.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="34.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC Commons / Café" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pc5-cN-gzB">
-                                                                                <rect key="frame" x="0.0" y="42.5" width="118.5" height="42"/>
+                                                                                <rect key="frame" x="0.0" y="33.5" width="118.5" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -689,16 +689,16 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ayL-Eu-6Ba">
-                                                                        <rect key="frame" x="0.0" y="367" width="288" height="85"/>
+                                                                        <rect key="frame" x="0.0" y="293.5" width="288" height="66.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4:45 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Rc-ir-ca8">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="60" height="43.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="60" height="34.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Committees in Session" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzO-ab-GpD">
-                                                                                <rect key="frame" x="0.0" y="42.5" width="150.5" height="42.5"/>
+                                                                                <rect key="frame" x="0.0" y="33.5" width="150.5" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -728,7 +728,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="492" id="EJg-bJ-eDr"/>
+                                                            <constraint firstAttribute="height" constant="400" id="EJg-bJ-eDr"/>
                                                             <constraint firstItem="Clt-Jy-jFt" firstAttribute="top" secondItem="ZZZ-pB-Eti" secondAttribute="top" id="L2i-te-12C"/>
                                                             <constraint firstItem="Clt-Jy-jFt" firstAttribute="leading" secondItem="ZZZ-pB-Eti" secondAttribute="leading" id="Nuw-KP-WCt"/>
                                                             <constraint firstAttribute="trailing" secondItem="K7W-fI-hlz" secondAttribute="trailing" id="cai-mX-GCv"/>
@@ -739,7 +739,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iEi-ip-B8h" userLabel="Sunday">
-                                                        <rect key="frame" x="0.0" y="1561" width="288" height="603"/>
+                                                        <rect key="frame" x="0.0" y="1269" width="288" height="673"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x5I-mS-4mo">
                                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="25"/>
@@ -761,19 +761,19 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                 </constraints>
                                                             </view>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="iBi-s8-9Kp">
-                                                                <rect key="frame" x="0.0" y="40" width="288" height="563"/>
+                                                                <rect key="frame" x="0.0" y="40" width="288" height="613"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zYZ-Ep-mFI">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="107"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="117"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:00 AM - 3:30 PM " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Du8-iJ-Mfx">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="139.5" height="54.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="139.5" height="59.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="idk, everywhere?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aM7-fF-HGn">
-                                                                                <rect key="frame" x="0.0" y="53.5" width="88.5" height="53.5"/>
+                                                                                <rect key="frame" x="0.0" y="58.5" width="88.5" height="58.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -799,16 +799,16 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O5S-Re-x3B">
-                                                                        <rect key="frame" x="0.0" y="114" width="288" height="107"/>
+                                                                        <rect key="frame" x="0.0" y="124" width="288" height="117"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:30 AM - 2:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7z-d4-NL6">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="144" height="54.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="144" height="59.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0q-3V-oiz">
-                                                                                <rect key="frame" x="0.0" y="53.5" width="0.0" height="53.5"/>
+                                                                                <rect key="frame" x="0.0" y="58.5" width="0.0" height="58.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -834,16 +834,16 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dyS-Xg-cDa">
-                                                                        <rect key="frame" x="0.0" y="228" width="288" height="107"/>
+                                                                        <rect key="frame" x="0.0" y="248" width="288" height="117"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:00 - 2:30 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6j-yP-QOm">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="105" height="54.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="105" height="59.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58y-E3-V9D">
-                                                                                <rect key="frame" x="0.0" y="53.5" width="25.5" height="53.5"/>
+                                                                                <rect key="frame" x="0.0" y="58.5" width="25.5" height="58.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -869,16 +869,16 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yjI-0j-hkb">
-                                                                        <rect key="frame" x="0.0" y="342" width="288" height="107"/>
+                                                                        <rect key="frame" x="0.0" y="372" width="288" height="117"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:30 - 4:30 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3A-wJ-bJ0">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="105" height="54.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="105" height="59.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC Commons /ES Cafeteria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vD3-NM-nqt">
-                                                                                <rect key="frame" x="0.0" y="53.5" width="159" height="53.5"/>
+                                                                                <rect key="frame" x="0.0" y="58.5" width="159" height="58.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -904,16 +904,16 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uCw-7a-GL4">
-                                                                        <rect key="frame" x="0.0" y="456" width="288" height="107"/>
+                                                                        <rect key="frame" x="0.0" y="496" width="288" height="117"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4:45 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alQ-sD-NA0">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="60" height="54.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="60" height="59.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIu-8m-clB">
-                                                                                <rect key="frame" x="0.0" y="53.5" width="25.5" height="53.5"/>
+                                                                                <rect key="frame" x="0.0" y="58.5" width="25.5" height="58.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -946,7 +946,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                             <constraint firstItem="x5I-mS-4mo" firstAttribute="top" secondItem="iEi-ip-B8h" secondAttribute="top" id="0p6-8D-Egp"/>
                                                             <constraint firstItem="iBi-s8-9Kp" firstAttribute="top" secondItem="x5I-mS-4mo" secondAttribute="bottom" constant="15" id="Jcl-bd-exd"/>
                                                             <constraint firstAttribute="trailing" secondItem="iBi-s8-9Kp" secondAttribute="trailing" id="MGq-NS-byT"/>
-                                                            <constraint firstAttribute="bottom" secondItem="iBi-s8-9Kp" secondAttribute="bottom" id="ZOx-dw-8Yc"/>
+                                                            <constraint firstAttribute="bottom" secondItem="iBi-s8-9Kp" secondAttribute="bottom" constant="20" symbolic="YES" id="ZOx-dw-8Yc"/>
                                                             <constraint firstAttribute="trailing" secondItem="x5I-mS-4mo" secondAttribute="trailing" id="lja-Fz-rkf"/>
                                                             <constraint firstItem="x5I-mS-4mo" firstAttribute="leading" secondItem="iEi-ip-B8h" secondAttribute="leading" id="ngm-vX-ozE"/>
                                                             <constraint firstItem="iBi-s8-9Kp" firstAttribute="leading" secondItem="iEi-ip-B8h" secondAttribute="leading" id="pCo-7P-Bfi"/>
@@ -964,7 +964,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                         </subviews>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2417" id="HF4-jt-G3v"/>
+                                            <constraint firstAttribute="height" constant="2186" id="HF4-jt-G3v"/>
                                             <constraint firstAttribute="trailing" secondItem="Rd6-A9-87I" secondAttribute="trailing" constant="16" id="ltk-EM-ayG"/>
                                             <constraint firstItem="Rd6-A9-87I" firstAttribute="top" secondItem="NfK-gr-WjD" secondAttribute="top" constant="16" id="oOy-Jf-8DT"/>
                                             <constraint firstItem="Rd6-A9-87I" firstAttribute="leading" secondItem="NfK-gr-WjD" secondAttribute="leading" constant="16" id="xzk-4g-J6O"/>
@@ -975,7 +975,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                     <constraint firstItem="NfK-gr-WjD" firstAttribute="leading" secondItem="N9f-db-xCa" secondAttribute="leading" id="Hry-MJ-prV"/>
                                     <constraint firstItem="NfK-gr-WjD" firstAttribute="top" secondItem="N9f-db-xCa" secondAttribute="top" id="sSd-FB-BO8"/>
                                     <constraint firstAttribute="trailing" secondItem="NfK-gr-WjD" secondAttribute="trailing" id="tSG-nt-4W9"/>
-                                    <constraint firstAttribute="bottom" secondItem="NfK-gr-WjD" secondAttribute="bottom" constant="-231" id="v6q-UM-Ptt"/>
+                                    <constraint firstAttribute="bottom" secondItem="NfK-gr-WjD" secondAttribute="bottom" constant="-610" id="v6q-UM-Ptt"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
