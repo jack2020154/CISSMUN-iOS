@@ -10,12 +10,14 @@ import UIKit
 
 class MUNHomeViewController: UIViewController, UIScrollViewDelegate {
     
-    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var coreyImageView: UIImageView!
     @IBOutlet weak var scrollView: UIScrollView!
     
 //    let appVersion = 1.0
 //    var updatedVersion: Double = 0.0
     
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

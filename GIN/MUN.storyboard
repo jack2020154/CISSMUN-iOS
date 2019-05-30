@@ -136,7 +136,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N9f-db-xCa">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="2186"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NfK-gr-WjD">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NfK-gr-WjD">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="2417"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Rd6-A9-87I">
@@ -179,9 +179,9 @@
                                                                 </constraints>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IdO-7i-ufF">
-                                                                <rect key="frame" x="-3" y="-60" width="307" height="339"/>
+                                                                <rect key="frame" x="-8" y="-16" width="304" height="243"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="height" constant="339" id="fnX-Nz-pqe"/>
+                                                                    <constraint firstAttribute="height" constant="243" id="fnX-Nz-pqe"/>
                                                                 </constraints>
                                                                 <string key="text">You must be connected to the "CISS_Employees_Students" network or be using a VPN to access the 'Live Updates' page.
 
@@ -193,15 +193,15 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="IdO-7i-ufF" secondAttribute="trailing" constant="-16" id="10f-aP-1rh"/>
-                                                            <constraint firstItem="IdO-7i-ufF" firstAttribute="leading" secondItem="Wz5-q2-T1v" secondAttribute="leading" constant="-3" id="8Qk-Kk-hCI"/>
+                                                            <constraint firstAttribute="trailing" secondItem="IdO-7i-ufF" secondAttribute="trailing" constant="-8" id="10f-aP-1rh"/>
+                                                            <constraint firstItem="IdO-7i-ufF" firstAttribute="leading" secondItem="Wz5-q2-T1v" secondAttribute="leading" constant="-8" id="8Qk-Kk-hCI"/>
                                                             <constraint firstAttribute="height" constant="260" id="Eap-19-Tht"/>
                                                             <constraint firstAttribute="trailing" secondItem="DM0-yq-9yj" secondAttribute="trailing" id="XKj-hX-wSP"/>
                                                             <constraint firstItem="JGL-pQ-naF" firstAttribute="leading" secondItem="Wz5-q2-T1v" secondAttribute="leading" constant="-16" id="YQP-sq-tRJ"/>
                                                             <constraint firstAttribute="trailing" secondItem="JGL-pQ-naF" secondAttribute="trailing" constant="-16" id="ZlV-Rz-NEy"/>
                                                             <constraint firstItem="DM0-yq-9yj" firstAttribute="leading" secondItem="Wz5-q2-T1v" secondAttribute="leading" id="Zmm-Ca-1hq"/>
-                                                            <constraint firstItem="JGL-pQ-naF" firstAttribute="top" secondItem="IdO-7i-ufF" secondAttribute="bottom" constant="-81" id="f8a-mZ-to8"/>
-                                                            <constraint firstItem="IdO-7i-ufF" firstAttribute="top" secondItem="DM0-yq-9yj" secondAttribute="bottom" constant="-85" id="o8E-A1-bIY"/>
+                                                            <constraint firstItem="JGL-pQ-naF" firstAttribute="top" secondItem="IdO-7i-ufF" secondAttribute="bottom" constant="-29" id="f8a-mZ-to8"/>
+                                                            <constraint firstItem="IdO-7i-ufF" firstAttribute="top" secondItem="DM0-yq-9yj" secondAttribute="bottom" constant="-41" id="o8E-A1-bIY"/>
                                                             <constraint firstItem="DM0-yq-9yj" firstAttribute="top" secondItem="Wz5-q2-T1v" secondAttribute="top" id="oc0-bO-cOv"/>
                                                         </constraints>
                                                     </view>
@@ -963,7 +963,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                         </subviews>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2250" id="HF4-jt-G3v"/>
+                                            <constraint firstAttribute="height" constant="2417" id="HF4-jt-G3v"/>
                                             <constraint firstAttribute="trailing" secondItem="Rd6-A9-87I" secondAttribute="trailing" constant="16" id="ltk-EM-ayG"/>
                                             <constraint firstItem="Rd6-A9-87I" firstAttribute="top" secondItem="NfK-gr-WjD" secondAttribute="top" constant="16" id="oOy-Jf-8DT"/>
                                             <constraint firstItem="Rd6-A9-87I" firstAttribute="leading" secondItem="NfK-gr-WjD" secondAttribute="leading" constant="16" id="xzk-4g-J6O"/>
@@ -974,7 +974,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                     <constraint firstItem="NfK-gr-WjD" firstAttribute="leading" secondItem="N9f-db-xCa" secondAttribute="leading" id="Hry-MJ-prV"/>
                                     <constraint firstItem="NfK-gr-WjD" firstAttribute="top" secondItem="N9f-db-xCa" secondAttribute="top" id="sSd-FB-BO8"/>
                                     <constraint firstAttribute="trailing" secondItem="NfK-gr-WjD" secondAttribute="trailing" id="tSG-nt-4W9"/>
-                                    <constraint firstAttribute="bottom" secondItem="NfK-gr-WjD" secondAttribute="bottom" constant="-64" id="v6q-UM-Ptt"/>
+                                    <constraint firstAttribute="bottom" secondItem="NfK-gr-WjD" secondAttribute="bottom" constant="-231" id="v6q-UM-Ptt"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -1072,8 +1072,8 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uLf-bg-5jy">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="1036"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N2o-IJ-Hfj">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1022"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N2o-IJ-Hfj">
+                                        <rect key="frame" x="0.0" y="-21" width="414" height="1005"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="a0f-6h-b5d">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="200.00000000000045"/>
@@ -1088,39 +1088,39 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                 <rect key="frame" x="12" y="216" width="390" height="400"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISSMUN Director" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="Qnj-LY-d0J">
-                                                        <rect key="frame" x="11.999999999999986" y="18" width="241.66666666666663" height="20"/>
+                                                        <rect key="frame" x="8" y="31" width="251" height="40"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="Yh5-hQ-S9D"/>
+                                                            <constraint firstAttribute="height" constant="40" id="Yh5-hQ-S9D"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="26"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="Erik Paulson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="P5x-me-boS">
-                                                        <rect key="frame" x="12" y="48" width="97.666666666666671" height="20"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" misplaced="YES" text="Erik Paulson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="P5x-me-boS">
+                                                        <rect key="frame" x="8" y="73" width="160" height="32"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="NPk-cw-RZs"/>
+                                                            <constraint firstAttribute="height" constant="32" id="NPk-cw-RZs"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="18"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="26"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paulson_erik" translatesAutoresizingMaskIntoConstraints="NO" id="cdu-bQ-ffa">
-                                                        <rect key="frame" x="253.66666666666671" y="11.999999999999993" width="124.33333333333334" height="124.33333333333331"/>
+                                                        <rect key="frame" x="252.00000000000003" y="7.9999999999999929" width="124.33333333333334" height="124.33333333333331"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="cdu-bQ-ffa" secondAttribute="height" multiplier="1:1" id="xmX-2o-WIP"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="M6m-T6-vAt">
-                                                        <rect key="frame" x="11.999999999999986" y="76" width="249.66666666666663" height="102.66666666666669"/>
-                                                        <string key="text">It is both an honor and a privilege to welcome you to the eleventh annual session of Concordia International School Shanghai Model United Nations.</string>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="QjF-VW-z2R">
+                                                        <rect key="frame" x="11" y="198" width="366" height="201.33333333333331"/>
+                                                        <string key="text">Whatever role you will play in this year’s event, whether chair, judge, delegate, member of the press team or anything else, I hope that the conference will leave you with a heightened understanding of the social and political challenges confronting the international community, and that you will come away more practiced in the arts of public speaking, negotiation and compromise. I look forward to your active participation in the eleventh annual session of CISSMUN, and I wish you every success.</string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="QjF-VW-z2R">
-                                                        <rect key="frame" x="12" y="186.66666666666669" width="366" height="201.33333333333331"/>
-                                                        <string key="text">Whatever role you will play in this year’s event, whether chair, judge, delegate, member of the press team or anything else, I hope that the conference will leave you with a heightened understanding of the social and political challenges confronting the international community, and that you will come away more practiced in the arts of public speaking, negotiation and compromise. I look forward to your active participation in the eleventh annual session of CISSMUN, and I wish you every success.</string>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="M6m-T6-vAt">
+                                                        <rect key="frame" x="10" y="95" width="370" height="148"/>
+                                                        <string key="text">It is both an honor and a privilege to welcome you to the eleventh annual session of Concordia International School Shanghai Model United Nations.</string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1128,60 +1128,53 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="QjF-VW-z2R" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="12" id="4X7-BM-ZKE"/>
-                                                    <constraint firstItem="QjF-VW-z2R" firstAttribute="top" secondItem="M6m-T6-vAt" secondAttribute="bottom" constant="8" id="56F-JT-25w"/>
+                                                    <constraint firstItem="QjF-VW-z2R" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="11" id="4X7-BM-ZKE"/>
+                                                    <constraint firstItem="QjF-VW-z2R" firstAttribute="top" secondItem="M6m-T6-vAt" secondAttribute="bottom" constant="-45" id="56F-JT-25w"/>
                                                     <constraint firstAttribute="height" constant="400" id="6jw-mB-cDW"/>
-                                                    <constraint firstItem="cdu-bQ-ffa" firstAttribute="top" secondItem="rsC-er-Ta4" secondAttribute="top" constant="12" id="7GM-82-47m"/>
-                                                    <constraint firstItem="Qnj-LY-d0J" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="12" id="Cc9-K3-Anp"/>
-                                                    <constraint firstItem="cdu-bQ-ffa" firstAttribute="leading" secondItem="M6m-T6-vAt" secondAttribute="trailing" constant="-8" id="NdB-ND-ZFx"/>
-                                                    <constraint firstItem="cdu-bQ-ffa" firstAttribute="leading" secondItem="Qnj-LY-d0J" secondAttribute="trailing" id="ck3-C2-PsG"/>
-                                                    <constraint firstItem="P5x-me-boS" firstAttribute="top" secondItem="Qnj-LY-d0J" secondAttribute="bottom" constant="10" id="dB2-gT-SW9"/>
-                                                    <constraint firstAttribute="bottom" secondItem="QjF-VW-z2R" secondAttribute="bottom" constant="12" id="juv-3I-4ZY"/>
-                                                    <constraint firstItem="Qnj-LY-d0J" firstAttribute="top" secondItem="rsC-er-Ta4" secondAttribute="top" constant="18" id="lyL-jx-Bto"/>
-                                                    <constraint firstAttribute="trailing" secondItem="cdu-bQ-ffa" secondAttribute="trailing" constant="12" id="uaG-eT-Tt9"/>
-                                                    <constraint firstItem="M6m-T6-vAt" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="12" id="yFF-JG-emy"/>
-                                                    <constraint firstItem="P5x-me-boS" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="12" id="yhH-mE-Wsz"/>
-                                                    <constraint firstAttribute="trailing" secondItem="QjF-VW-z2R" secondAttribute="trailing" constant="12" id="z0m-5M-jDk"/>
-                                                    <constraint firstItem="M6m-T6-vAt" firstAttribute="top" secondItem="P5x-me-boS" secondAttribute="bottom" constant="8" id="z8b-Af-1Hn"/>
+                                                    <constraint firstItem="cdu-bQ-ffa" firstAttribute="top" secondItem="rsC-er-Ta4" secondAttribute="top" constant="8" id="7GM-82-47m"/>
+                                                    <constraint firstItem="Qnj-LY-d0J" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="8" id="Cc9-K3-Anp"/>
+                                                    <constraint firstItem="cdu-bQ-ffa" firstAttribute="leading" secondItem="M6m-T6-vAt" secondAttribute="trailing" constant="-128" id="NdB-ND-ZFx"/>
+                                                    <constraint firstItem="cdu-bQ-ffa" firstAttribute="leading" secondItem="Qnj-LY-d0J" secondAttribute="trailing" constant="-7" id="ck3-C2-PsG"/>
+                                                    <constraint firstItem="P5x-me-boS" firstAttribute="top" secondItem="Qnj-LY-d0J" secondAttribute="bottom" constant="2" id="dB2-gT-SW9"/>
+                                                    <constraint firstAttribute="bottom" secondItem="QjF-VW-z2R" secondAttribute="bottom" constant="0.66666666666668561" id="juv-3I-4ZY"/>
+                                                    <constraint firstItem="Qnj-LY-d0J" firstAttribute="top" secondItem="rsC-er-Ta4" secondAttribute="top" constant="31" id="lyL-jx-Bto"/>
+                                                    <constraint firstAttribute="trailing" secondItem="cdu-bQ-ffa" secondAttribute="trailing" constant="13.666666666666629" id="uaG-eT-Tt9"/>
+                                                    <constraint firstItem="M6m-T6-vAt" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="10" id="yFF-JG-emy"/>
+                                                    <constraint firstItem="P5x-me-boS" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="8" id="yhH-mE-Wsz"/>
+                                                    <constraint firstAttribute="trailing" secondItem="QjF-VW-z2R" secondAttribute="trailing" constant="13" id="z0m-5M-jDk"/>
+                                                    <constraint firstItem="M6m-T6-vAt" firstAttribute="top" secondItem="P5x-me-boS" secondAttribute="bottom" constant="-10" id="z8b-Af-1Hn"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tjo-7E-Fy0" userLabel="Katherine" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
                                                 <rect key="frame" x="12" y="632" width="390" height="373"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secretary General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="jQ7-wX-9Jn">
-                                                        <rect key="frame" x="11.999999999999986" y="18" width="241.66666666666663" height="20"/>
+                                                        <rect key="frame" x="8" y="26" width="234" height="44"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="PcF-Pf-h6H"/>
+                                                            <constraint firstAttribute="height" constant="44" id="PcF-Pf-h6H"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="26"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Corey Zhou" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="zC6-T0-Ypm">
-                                                        <rect key="frame" x="12" y="48" width="83.333333333333329" height="20"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Corey Zhou" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="zC6-T0-Ypm">
+                                                        <rect key="frame" x="8" y="70" width="130" height="33"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="vnY-fS-MfD"/>
+                                                            <constraint firstAttribute="height" constant="33" id="vnY-fS-MfD"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="16"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="22"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Katherine" translatesAutoresizingMaskIntoConstraints="NO" id="KSX-9v-4X7">
-                                                        <rect key="frame" x="253.66666666666671" y="11.999999999999993" width="124.33333333333334" height="124.33333333333331"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corey" translatesAutoresizingMaskIntoConstraints="NO" id="KSX-9v-4X7">
+                                                        <rect key="frame" x="250.00000000000003" y="8" width="124.33333333333334" height="124"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" secondItem="KSX-9v-4X7" secondAttribute="height" multiplier="1:1" id="OZP-oR-DGT"/>
+                                                            <constraint firstAttribute="height" constant="124" id="Gdv-4P-z53"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="oq5-0F-McL" userLabel="KHeader">
-                                                        <rect key="frame" x="11.999999999999986" y="76" width="233.66666666666663" height="123"/>
-                                                        <string key="text">"I am honored to serve as the Secretary General for the eleventh annual session of CISSMUN. I am excited to welcome all of you to be a part of this platform for growth, education, communication, and diplomacy"</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="YoG-jp-dNg">
-                                                        <rect key="frame" x="12" y="178" width="366" height="134"/>
-                                                        <string key="text">CISSMUN and GIN working together during this conference will hopefully give us all a broader understanding of how important issues can be tackled. Ultimately, GIN and MUN are two sides of the same coin. Let's find a way to connect the ideas, and connect with each other, to collaborate! </string>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="oq5-0F-McL" userLabel="KHeader">
+                                                        <rect key="frame" x="6" y="126" width="379" height="158"/>
+                                                        <string key="text">I am honored to serve as the Secretary General for the eleventh annual session of CISSMUN. I am excited to welcome all of you to be a part of this platform for growth, education, communication, and diplomacy. On behalf of ***, we hope that you will have a worthwhile experiance</string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1189,26 +1182,22 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="zC6-T0-Ypm" firstAttribute="top" secondItem="jQ7-wX-9Jn" secondAttribute="bottom" constant="10" id="1Z3-UP-9bO"/>
-                                                    <constraint firstAttribute="height" constant="373" id="5Hp-b0-wCd"/>
-                                                    <constraint firstItem="jQ7-wX-9Jn" firstAttribute="top" secondItem="Tjo-7E-Fy0" secondAttribute="top" constant="18" id="884-vr-O45"/>
-                                                    <constraint firstItem="KSX-9v-4X7" firstAttribute="leading" secondItem="jQ7-wX-9Jn" secondAttribute="trailing" id="ErF-RT-eGJ"/>
-                                                    <constraint firstItem="jQ7-wX-9Jn" firstAttribute="leading" secondItem="Tjo-7E-Fy0" secondAttribute="leading" constant="12" id="L5H-iS-kLm"/>
-                                                    <constraint firstItem="KSX-9v-4X7" firstAttribute="top" secondItem="Tjo-7E-Fy0" secondAttribute="top" constant="12" id="OCi-hP-Oiw"/>
-                                                    <constraint firstAttribute="trailing" secondItem="YoG-jp-dNg" secondAttribute="trailing" constant="12" id="UAi-ag-Zi6"/>
-                                                    <constraint firstItem="YoG-jp-dNg" firstAttribute="top" secondItem="oq5-0F-McL" secondAttribute="bottom" constant="-21" id="Wg3-kr-fbh"/>
-                                                    <constraint firstAttribute="bottom" secondItem="YoG-jp-dNg" secondAttribute="bottom" constant="61" id="YWz-sm-jpV"/>
-                                                    <constraint firstItem="oq5-0F-McL" firstAttribute="leading" secondItem="Tjo-7E-Fy0" secondAttribute="leading" constant="12" id="Z0Q-hj-pOh"/>
-                                                    <constraint firstItem="oq5-0F-McL" firstAttribute="trailing" secondItem="KSX-9v-4X7" secondAttribute="leading" constant="-8" id="lSM-ys-rqD"/>
-                                                    <constraint firstItem="oq5-0F-McL" firstAttribute="top" secondItem="zC6-T0-Ypm" secondAttribute="bottom" constant="8" id="ppO-8n-vJW"/>
-                                                    <constraint firstItem="zC6-T0-Ypm" firstAttribute="leading" secondItem="Tjo-7E-Fy0" secondAttribute="leading" constant="12" id="uWc-wL-riB"/>
-                                                    <constraint firstItem="YoG-jp-dNg" firstAttribute="leading" secondItem="Tjo-7E-Fy0" secondAttribute="leading" constant="12" id="yku-nI-jpD"/>
-                                                    <constraint firstAttribute="trailing" secondItem="KSX-9v-4X7" secondAttribute="trailing" constant="12" id="z7i-iJ-T4m"/>
+                                                    <constraint firstItem="zC6-T0-Ypm" firstAttribute="top" secondItem="jQ7-wX-9Jn" secondAttribute="bottom" id="1Z3-UP-9bO"/>
+                                                    <constraint firstItem="jQ7-wX-9Jn" firstAttribute="top" secondItem="Tjo-7E-Fy0" secondAttribute="top" constant="26" id="884-vr-O45"/>
+                                                    <constraint firstItem="KSX-9v-4X7" firstAttribute="leading" secondItem="jQ7-wX-9Jn" secondAttribute="trailing" constant="8" id="ErF-RT-eGJ"/>
+                                                    <constraint firstItem="jQ7-wX-9Jn" firstAttribute="leading" secondItem="Tjo-7E-Fy0" secondAttribute="leading" constant="8" id="L5H-iS-kLm"/>
+                                                    <constraint firstItem="oq5-0F-McL" firstAttribute="leading" secondItem="Tjo-7E-Fy0" secondAttribute="leading" constant="6" id="Z0Q-hj-pOh"/>
+                                                    <constraint firstItem="KSX-9v-4X7" firstAttribute="top" secondItem="Tjo-7E-Fy0" secondAttribute="top" constant="8" id="kqm-ty-lC5"/>
+                                                    <constraint firstItem="oq5-0F-McL" firstAttribute="trailing" secondItem="KSX-9v-4X7" secondAttribute="leading" constant="135" id="lSM-ys-rqD"/>
+                                                    <constraint firstItem="oq5-0F-McL" firstAttribute="top" secondItem="zC6-T0-Ypm" secondAttribute="bottom" constant="23" id="ppO-8n-vJW"/>
+                                                    <constraint firstItem="zC6-T0-Ypm" firstAttribute="leading" secondItem="Tjo-7E-Fy0" secondAttribute="leading" constant="8" id="uWc-wL-riB"/>
+                                                    <constraint firstAttribute="trailing" secondItem="KSX-9v-4X7" secondAttribute="trailing" constant="15.666666666666629" id="z7i-iJ-T4m"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="Tjo-7E-Fy0" secondAttribute="bottom" id="4PG-ap-TOy"/>
                                             <constraint firstItem="Tjo-7E-Fy0" firstAttribute="top" secondItem="rsC-er-Ta4" secondAttribute="bottom" constant="16" id="Bs9-DF-2y5"/>
                                             <constraint firstItem="rsC-er-Ta4" firstAttribute="top" secondItem="a0f-6h-b5d" secondAttribute="bottom" priority="999" constant="16" id="DXn-YK-YoS"/>
                                             <constraint firstItem="3o9-Xs-JpD" firstAttribute="top" secondItem="a0f-6h-b5d" secondAttribute="top" id="F1Z-wp-b2W"/>
@@ -1216,20 +1205,20 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                                             <constraint firstAttribute="trailing" secondItem="Tjo-7E-Fy0" secondAttribute="trailing" constant="12" id="S2E-eI-ObA"/>
                                             <constraint firstItem="Tjo-7E-Fy0" firstAttribute="leading" secondItem="N2o-IJ-Hfj" secondAttribute="leading" constant="12" id="Y59-Xt-Ps5"/>
                                             <constraint firstItem="3o9-Xs-JpD" firstAttribute="leading" secondItem="a0f-6h-b5d" secondAttribute="leading" id="csK-kW-ZFe"/>
-                                            <constraint firstAttribute="bottom" secondItem="a0f-6h-b5d" secondAttribute="bottom" priority="999" constant="822" id="dMR-im-swR"/>
+                                            <constraint firstAttribute="bottom" secondItem="a0f-6h-b5d" secondAttribute="bottom" priority="999" constant="805" id="dMR-im-swR"/>
                                             <constraint firstItem="3o9-Xs-JpD" firstAttribute="trailing" secondItem="a0f-6h-b5d" secondAttribute="trailing" id="dWz-Z3-3JJ"/>
                                             <constraint firstItem="rsC-er-Ta4" firstAttribute="leading" secondItem="N2o-IJ-Hfj" secondAttribute="leading" constant="12" id="ezc-vE-zHw"/>
                                             <constraint firstAttribute="trailing" secondItem="rsC-er-Ta4" secondAttribute="trailing" constant="12" id="gqX-xI-Dzz"/>
                                             <constraint firstAttribute="trailing" secondItem="a0f-6h-b5d" secondAttribute="trailing" id="ma6-lR-PXP"/>
                                             <constraint firstItem="a0f-6h-b5d" firstAttribute="leading" secondItem="N2o-IJ-Hfj" secondAttribute="leading" id="r5V-7O-NDV"/>
                                             <constraint firstItem="rsC-er-Ta4" firstAttribute="top" secondItem="N2o-IJ-Hfj" secondAttribute="top" constant="216" id="us2-MW-yPR"/>
-                                            <constraint firstAttribute="height" constant="1022" id="ysg-4C-D4V"/>
+                                            <constraint firstAttribute="height" constant="1005" id="ysg-4C-D4V"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="N2o-IJ-Hfj" secondAttribute="bottom" constant="14" id="CsT-Jp-WH9"/>
-                                    <constraint firstItem="N2o-IJ-Hfj" firstAttribute="top" secondItem="uLf-bg-5jy" secondAttribute="top" id="GrV-tT-bTD"/>
+                                    <constraint firstAttribute="bottom" secondItem="N2o-IJ-Hfj" secondAttribute="bottom" constant="93" id="CsT-Jp-WH9"/>
+                                    <constraint firstItem="N2o-IJ-Hfj" firstAttribute="top" secondItem="uLf-bg-5jy" secondAttribute="top" constant="-62" id="GrV-tT-bTD"/>
                                     <constraint firstAttribute="trailing" secondItem="N2o-IJ-Hfj" secondAttribute="trailing" id="IwQ-5e-N3L"/>
                                     <constraint firstItem="N2o-IJ-Hfj" firstAttribute="leading" secondItem="uLf-bg-5jy" secondAttribute="leading" id="d7l-Wr-jtB"/>
                                 </constraints>
@@ -1241,7 +1230,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                             <constraint firstAttribute="bottom" secondItem="uLf-bg-5jy" secondAttribute="bottom" id="ABt-7H-EVy"/>
                             <constraint firstAttribute="trailing" secondItem="uLf-bg-5jy" secondAttribute="trailing" id="Ohl-qV-pZe"/>
                             <constraint firstItem="cdu-bQ-ffa" firstAttribute="width" secondItem="WBa-dS-Xzo" secondAttribute="width" multiplier="0.3" id="SV2-yd-tm1"/>
-                            <constraint firstItem="a0f-6h-b5d" firstAttribute="top" secondItem="Jhe-Xv-rR9" secondAttribute="bottom" id="X0A-Zf-jF0"/>
+                            <constraint firstItem="a0f-6h-b5d" firstAttribute="top" secondItem="Jhe-Xv-rR9" secondAttribute="bottom" constant="-62" id="X0A-Zf-jF0"/>
                             <constraint firstItem="uLf-bg-5jy" firstAttribute="top" secondItem="Jhe-Xv-rR9" secondAttribute="bottom" id="q95-Nz-1oa"/>
                             <constraint firstItem="uLf-bg-5jy" firstAttribute="leading" secondItem="WBa-dS-Xzo" secondAttribute="leading" id="s9d-l2-SPy"/>
                             <constraint firstItem="KSX-9v-4X7" firstAttribute="width" secondItem="WBa-dS-Xzo" secondAttribute="width" multiplier="0.3" id="t95-rv-b2k"/>
@@ -1255,6 +1244,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="414" height="1100"/>
                     <connections>
+                        <outlet property="coreyImageView" destination="KSX-9v-4X7" id="ZWP-GI-fla"/>
                         <outlet property="imageView" destination="a0f-6h-b5d" id="FcV-IC-e6O"/>
                         <outlet property="scrollView" destination="uLf-bg-5jy" id="9Mb-XJ-BGB"/>
                     </connections>
@@ -1590,7 +1580,7 @@ Please take notice of concurrent events, this schedule is not perfectly chronolo
         </scene>
     </scenes>
     <resources>
-        <image name="Katherine" width="300" height="300"/>
+        <image name="corey" width="600" height="600"/>
         <image name="icons8-Globe " width="25" height="25"/>
         <image name="icons8-Globe Filled " width="25" height="25"/>
         <image name="icons8-Home " width="25" height="25"/>
